@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": ["${workspaceFolder}/**"],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE",
+        "TOOLS_ENABLED",
+        "DEBUG_ENABLED",
+        "TESTS_ENABLED"
+      ],
+      "cStandard": "c11",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "windows-gcc-x86"
+    },
+    {
+      "name": "c_cpp_properties",
+      "includePath": ["${workspaceFolder}/**"],
+      "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+      "cStandard": "c11",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "windows-gcc-x86"
+    }
+  ],
+  "version": 4
+}
